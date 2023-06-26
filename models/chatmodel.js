@@ -16,11 +16,11 @@ const chatSchema = mongoose.Schema({
         ref: "User"
     }],
     latestMessage:{
-        type:mongoose.ObjectId.Schema.Types.ObjectId,
+        type:mongoose.Schema.Types.ObjectId,
         ref:"Message"
     },
     isgroupAdmin:{
-        type:mongoose.ObjectId.Schema.Types.ObjectId,
+        type:mongoose.Schema.Types.ObjectId,
         ref:"User"
     }
 
